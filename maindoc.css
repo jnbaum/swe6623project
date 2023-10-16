@@ -41,7 +41,7 @@
     font-family: sans-serif;
     text-align: center;
     flex-direction: column; 
-    border: 2px solid #d16907;
+    border: 2px solid #ec7709;
     border-radius: 40px;
     padding: 20px;
     box-sizing: border-box;
@@ -61,3 +61,44 @@
     text-align: center;
   }
   
+  .login2 {
+    margin-top: 200px;
+    margin-left: 15px;
+    width: 250px;
+    display: block;
+  }
+
+  .signup2 {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 250px;
+    display: block;
+  }
+
+  .loginbox {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid #53d647;
+    border-radius: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-right: 700px;
+  }
+
+  .loginbox form input {
+    border: 2px solid #ec7709;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+.loginbox form label { 
+    margin-top: 0px;
+}
+
+.signupbutton {
+    width: 200px;
+}
