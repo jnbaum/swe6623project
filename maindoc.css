@@ -3,20 +3,20 @@
     top: 20px;
     left: 20px; 
     width: 250px;
+    margin-bottom: 20px;
 }
 
 .login {
-    position: relative;
-    top: 20px;
-    left: 800px;
+    position: absolute;
     width: 250px;
+    margin-top: 20px;
+    margin-left: 780px;
 }
 
 .signup {
-    position: relative;
-    top: 20px;
-    left: 900px;
     width: 250px;
+    margin-top: 20px;
+    margin-left: 1150px;
 }
 
 .boxheadings {
@@ -101,4 +101,66 @@
 
 .signupbutton {
     width: 200px;
+}
+
+.myrecipes {
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0;
+    font-weight: normal;
+    font-family: sans-serif
+}
+
+.mygrocerylist {
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.mypantry {
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.myaccount {
+    font-size: 25px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.headerbuttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    gap: 100px;
+    margin-left: 600px;
+}
+
+.button-box {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    width: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #53d647;
+    border-radius: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button-box.addnew {
+   margin-top: 100px;
 }
