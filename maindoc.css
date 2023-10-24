@@ -91,6 +91,7 @@
     border-radius: 10px; 
     padding: 10px;
     margin: 5px;
+    width: 350px;
     box-sizing: border-box;
 }
 
@@ -99,7 +100,7 @@
     margin-top: 0px;
 }
 
-.signupbutton {
+.loginbutton {
     width: 200px;
 }
 
@@ -138,19 +139,19 @@
 .headerbuttons {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
     font-weight: normal;
     font-family: sans-serif;
     text-align: center;
     margin-top: 20px;
     gap: 100px;
     margin-left: 600px;
+    margin-bottom: 80px;
 }
 
 .button-box {
     margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 0px;
+    margin-left: 10px;
     width: 250px;
     font-family: sans-serif;
     text-align: center;
@@ -161,6 +162,37 @@
     box-sizing: border-box;
 }
 
-.button-box.addnew {
-   margin-top: 100px;
+.sidebuttons {
+   margin-top: 10px;
+}
+
+.signupbutton {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.signupbox {
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid #53d647;
+    border-radius: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-top: 20px;
+  }
+
+  .signupbox form input {
+    border: 2px solid #ec7709;
+    border-radius: 10px; 
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
+.signupbox form label { 
+    margin-top: 0px;
 }
