@@ -106,7 +106,7 @@
 
 .myrecipes {
     font-size: 25px;
-    border-bottom: 2px solid #000;
+    text-decoration: underline;
     padding-bottom: 0;
     font-weight: normal;
     font-family: sans-serif
@@ -114,7 +114,7 @@
 
 .mygrocerylist {
     font-size: 25px;
-    border-bottom: 2px solid #000;
+    text-decoration: underline;
     padding-bottom: 0;
     font-weight: normal;
     font-family: sans-serif;
@@ -122,7 +122,7 @@
 
 .mypantry {
     font-size: 25px;
-    border-bottom: 2px solid #000;
+    text-decoration: underline;
     padding-bottom: 0;
     font-weight: normal;
     font-family: sans-serif;
@@ -130,7 +130,7 @@
 
 .myaccount {
     font-size: 25px;
-    border-bottom: 2px solid #000;
+    text-decoration: underline;
     padding-bottom: 0;
     font-weight: normal;
     font-family: sans-serif;
@@ -139,31 +139,32 @@
 .headerbuttons {
     display: flex;
     flex-direction: row;
-    /*align-items: flex-start;*/
     font-weight: normal;
     font-family: sans-serif;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     gap: 100px;
     margin-left: 600px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .button-box {
     margin-top: 20px;
-    margin-left: 10px;
-    width: 250px;
+    margin-left: 0px;
     font-family: sans-serif;
     text-align: center;
-    font-size: 25px;
-    border: 2px solid #53d647;
-    border-radius: 40px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 0px;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 
 .sidebuttons {
-   margin-top: 10px;
+   margin-top: 150px;
+   margin-left: 20px;
+   margin-right: 1725px;
+   border: 2px solid #ec7709;
+   border-radius: 40px;
 }
 
 .signupbutton {
@@ -195,4 +196,64 @@
 
 .signupbox form label { 
     margin-top: 0px;
+}
+
+.selectmeals {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-top: 175px;
+    padding-bottom: 0px;
+    position: absolute;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+.sortcriteria {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-right: 1725px;
+}
+
+.protein {
+    border-bottom: 2px solid #000;
+    border: 2px solid #ec7709;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.vegetables {
+    border-bottom: 2px solid #000;
+    border: 2px solid #ec7709;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.fruits {
+    border-bottom: 2px solid #000;
+    border: 2px solid #ec7709;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.dessert {
+    border-bottom: 2px solid #000;
+    border: 2px solid #ec7709;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.carbsource {
+    border-bottom: 2px solid #000;
+    border: 2px solid #ec7709;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+
+.protein p, .vegetables p, .fruits p, .dessert p, .carbsource p {
+    text-decoration: underline;
 }
